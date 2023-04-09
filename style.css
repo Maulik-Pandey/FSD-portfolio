@@ -279,9 +279,13 @@ form .btn2{
 }
 
 /*------css for small screen------*/
-nav.fas{
+nav .fa-solid.fa-xmark{
     display: none;
 }
+nav .fa-solid.fa-bars{
+    display: none;
+}
+
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/lottie-000_1_1.gif);
@@ -293,7 +297,7 @@ nav.fas{
     .header-text h1{
         font-size: 30px;
     }
-    nav.fas{
+    nav.fa-solid.fa-bars{
         display: block;
         font-size: 25px;
     }
@@ -318,6 +322,7 @@ nav.fas{
         left:25px;
         cursor: pointer;
     }
+
     .subtitle{
         font-size: 40px;
     }
